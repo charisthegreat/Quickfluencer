@@ -14,34 +14,18 @@ section{
 }
 
 /*nav-bar*/
+.navbar img{
+	width: 235px;
+}
+
 #nav-bar a{
 	text-decoration: none;
 	color: #91171A;
+	padding-right: 50px;
 }
 
 
-/*.side-bar ul{
-	width: 100%;
-	list-style: none;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}*/
-
-.side-bar li{
-	list-style: none;
-	padding: 20px 0;
-	width: 100%;
-}
-
-
-/*.logo a{
-	text-decoration: none;
-	color: #91171A;
-}
-*/
-.buttons .btn-login{
-	/*float: right;*/
+#nav-bar  .btn-login{
 	border-radius: 20px;
 	border: 2px solid #000000;
 	color: #91171A;
@@ -49,8 +33,7 @@ section{
 	height: 48px;
 }
 
-.buttons .btn-register{
-	/*float: right;*/
+#nav-bar .btn-register{
 	border-radius: 20px;
 	color: #FFF;
 	background-color: #FF0000;
